@@ -1,2 +1,25 @@
 body{background-color: powderblue;}
 h1{color: green;}
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+#box{
+    width:100px;
+    height:100px;
+    margin-bottom: 24px;
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+    color: white
+}
+#octagon {
+    width: 100px;
+    height: 100px;
+    background: teal;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
